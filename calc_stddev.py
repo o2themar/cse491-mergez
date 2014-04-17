@@ -13,7 +13,7 @@ def sum_sq_diff(series):
         diff = diff * diff
         total_diff += diff
 
-    return total_diff / float(len(series))
+    return total_diff
 
 def stddev(series):
     "Calculate the standard deviation of the given series."
